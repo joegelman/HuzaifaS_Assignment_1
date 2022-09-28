@@ -88,7 +88,7 @@ main {
     padding: 10%;
     background: #fff;
     border-radius: 10px;
-    /* height: 250px; */
+    height: calc(auto+20px);
     /* min-width: 300px;  */
     justify-content: space-between;
     position: relative;
