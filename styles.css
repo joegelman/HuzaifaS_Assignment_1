@@ -188,19 +188,20 @@ p.subliner {
   }
 
 @media only screen and (max-width:668px) {
-  /* main {
-    margin: 0;
-    padding: 80px 10px;
-  } */
-  /* h1 {
-    font-size: 1.5em;
-  } */
+main {
+    margin: 0 auto;
+    padding: 60px 20px;
+     }
 
   .headline {
-    max-width: 300px;
+    max-width: 350px;
   }
   p.subliner {
     font-size: .6rem;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 .cardliner {
