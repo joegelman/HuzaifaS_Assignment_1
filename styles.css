@@ -1,0 +1,146 @@
+/* Basic Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  /* html, body {
+    height: 100%;
+  } */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: Poppins, Futura, 'Century Gothic';
+    font-weight: 300;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    background-image: url(funky-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+/* Header section styles */
+
+main {
+    background-color: #fafafa;
+    max-width: 1200px;
+    padding: 60px 80px;
+    margin: 200px auto;
+    box-shadow: 5px 5px 20px #ccc;
+    border-radius: 10px;
+  } 
+
+
+  .headline {
+    text-align: center;
+    margin: 0 auto 50px auto;
+    max-width: 600px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .light {
+    font-weight: 200;
+  }
+
+/* Grid styles */
+
+.card-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 0 auto 50px auto;
+    /* max-width: 768px; */
+    padding: 10px;
+    align-items: center;
+  }
+  
+
+/* Item styles */
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    background: #fff;
+    border-radius: 10px;
+    /* height: 250px; */
+    /* min-width: 300px;  */
+    justify-content: space-between;
+    position: relative;
+    box-shadow: 5px 5px 20px #ccc;
+}
+
+.subgrid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* margin: auto 0;
+    min-width: 300px; */
+}
+
+p.subliner {
+    font-size: .8rem;
+}
+
+.card-item::before {
+    content: ' ';
+    position: absolute;
+    /* background-color: #009467; */
+    display: block;
+    height: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: auto;
+    top: 0px;
+    right: 0;
+    left: 0;
+    
+}
+
+.one::before {
+    background-color: #00b4b1; 
+}
+
+.two::before {
+    background-color: #c3001d; 
+}
+
+.three::before {
+    background-color: #dcb803; 
+}
+
+.four::before {
+    background-color: #30A5FF; 
+}
+
+.icon {
+    margin-top: 2rem;
+    align-self: flex-end;
+    height: 60px;
+}
+
+
+
+
+
