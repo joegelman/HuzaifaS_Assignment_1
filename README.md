@@ -1,4 +1,6 @@
-# 📚 Homework no. 1 | 🍱 Flexbox/Grid Challenge
+# 🍱 Flexbox/Grid Challenge
+
+### 📚 Homework no. 1 
 _Phase one of my front-end journey_
 
 ## 🤓 What I learned
@@ -10,11 +12,11 @@ _Phase one of my front-end journey_
 ## 😬 What needs work
 
 - Overall comfortability with CSS properties
--- This took way longer than it had to, basically lived on MDN and W3, and still most of my time was spent trialing and erroring in the dev tools
+    - This took way longer than it had to, basically lived on MDN and W3, and still most of my time was spent trialing and erroring in the dev tools
 - Need to better understand the full capabilities of CSS layout (think much of my code is suboptimal and inelegant compared with the 'right' way of doing things
 - My units are all over the place, must get more comfortable knowing where/when/how to use each
 - Didn't use variables, but already seeing the power of them for any kind of scale
--- _**Note:** would've been super cool to leverage variables in the SVGs (which I think is possible if they're inline)_
+    - _**Note:** would've been super cool to leverage variables in the SVGs (which I think is possible if they're inline)_
 
 ## 🔑 Key takeaways:
 
